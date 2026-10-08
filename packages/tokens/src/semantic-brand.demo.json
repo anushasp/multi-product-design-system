@@ -1,0 +1,129 @@
+{
+  "$description": "Layer 3 - Semantic brand (demo). Brand-owned roles per mode. May only reference primitive tokens.",
+  "office-light": {
+    "brand": {
+      "accent": {
+        "$value": "{color.teal.600}"
+      },
+      "subtle": {
+        "$value": "{color.teal.50}"
+      },
+      "on-accent": {
+        "$value": "{color.neutral.0}"
+      }
+    },
+    "action": {
+      "primary": {
+        "$value": "{color.violet.600}"
+      },
+      "primary-hover": {
+        "$value": "{color.violet.700}"
+      },
+      "subtle": {
+        "$value": "{color.violet.50}"
+      },
+      "on-primary": {
+        "$value": "{color.neutral.0}"
+      }
+    },
+    "focus": {
+      "ring": {
+        "$value": "{color.violet.600}"
+      }
+    },
+    "text": {
+      "link": {
+        "$value": "{color.violet.700}"
+      }
+    },
+    "highlight": {
+      "selected": {
+        "$value": "{color.violet.50}"
+      }
+    }
+  },
+  "office-dark": {
+    "brand": {
+      "accent": {
+        "$value": "{color.teal.300}"
+      },
+      "subtle": {
+        "$value": "{color.teal.900}"
+      },
+      "on-accent": {
+        "$value": "{color.neutral.950}"
+      }
+    },
+    "action": {
+      "primary": {
+        "$value": "{color.violet.300}"
+      },
+      "primary-hover": {
+        "$value": "{color.violet.100}"
+      },
+      "subtle": {
+        "$value": "{color.violet.900}"
+      },
+      "on-primary": {
+        "$value": "{color.neutral.950}"
+      }
+    },
+    "focus": {
+      "ring": {
+        "$value": "{color.violet.300}"
+      }
+    },
+    "text": {
+      "link": {
+        "$value": "{color.violet.300}"
+      }
+    },
+    "highlight": {
+      "selected": {
+        "$value": "{color.violet.900}"
+      }
+    }
+  },
+  "field": {
+    "brand": {
+      "accent": {
+        "$value": "{color.teal.300}"
+      },
+      "subtle": {
+        "$value": "{color.teal.900}"
+      },
+      "on-accent": {
+        "$value": "{color.neutral.950}"
+      }
+    },
+    "action": {
+      "primary": {
+        "$value": "{color.teal.300}"
+      },
+      "primary-hover": {
+        "$value": "{color.teal.50}"
+      },
+      "subtle": {
+        "$value": "{color.teal.900}"
+      },
+      "on-primary": {
+        "$value": "{color.neutral.950}"
+      }
+    },
+    "focus": {
+      "ring": {
+        "$value": "{color.teal.300}"
+      }
+    },
+    "text": {
+      "link": {
+        "$value": "{color.teal.300}"
+      }
+    },
+    "highlight": {
+      "selected": {
+        "$value": "{color.teal.900}"
+      }
+    }
+  }
+}

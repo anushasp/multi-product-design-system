@@ -1,0 +1,422 @@
+{
+  "$description": "Layer 4 - Component. Per-component decisions. Colors and sizes must reference semantic tokens (base or brand). Plain numbers (opacity, weights) are allowed as literals.",
+  "page": {
+    "bg": {
+      "$value": "{surface.page}"
+    },
+    "fg": {
+      "$value": "{text.primary}"
+    },
+    "fg-muted": {
+      "$value": "{text.secondary}"
+    },
+    "font-family": {
+      "$value": "{typography.family.sans}"
+    },
+    "font-size": {
+      "$value": "{size.text}"
+    },
+    "fg-disabled": {
+      "$value": "{text.disabled}"
+    },
+    "border": {
+      "$value": "{border.default}"
+    },
+    "border-strong": {
+      "$value": "{border.strong}"
+    },
+    "link": {
+      "$value": "{text.link}"
+    },
+    "sunken": {
+      "$value": "{surface.sunken}"
+    },
+    "inverse": {
+      "$value": "{surface.inverse}"
+    },
+    "focus": {
+      "$value": "{focus.ring}"
+    }
+  },
+  "card": {
+    "bg": {
+      "$value": "{surface.raised}"
+    },
+    "border": {
+      "$value": "{border.default}"
+    },
+    "radius": {
+      "$value": "{shape.radius.card}"
+    },
+    "padding": {
+      "$value": "{space.lg}"
+    }
+  },
+  "button": {
+    "primary-bg": {
+      "$value": "{action.primary}"
+    },
+    "primary-bg-hover": {
+      "$value": "{action.primary-hover}"
+    },
+    "primary-fg": {
+      "$value": "{action.on-primary}"
+    },
+    "secondary-bg": {
+      "$value": "{surface.raised}"
+    },
+    "secondary-border": {
+      "$value": "{border.strong}"
+    },
+    "secondary-fg": {
+      "$value": "{text.primary}"
+    },
+    "tertiary-fg": {
+      "$value": "{text.link}"
+    },
+    "height-md": {
+      "$value": "{size.target}"
+    },
+    "height-sm": {
+      "$value": "{size.target-sm}"
+    },
+    "padding-md": {
+      "$value": "{space.lg}"
+    },
+    "padding-sm": {
+      "$value": "{space.md}"
+    },
+    "font-size-md": {
+      "$value": "{size.text}"
+    },
+    "font-size-sm": {
+      "$value": "{size.text-sm}"
+    },
+    "radius": {
+      "$value": "{shape.radius.control}"
+    },
+    "focus-ring": {
+      "$value": "{focus.ring}"
+    },
+    "disabled-opacity": {
+      "$value": "0.45"
+    }
+  },
+  "chip": {
+    "radius": {
+      "$value": "{shape.radius.pill}"
+    },
+    "font-size": {
+      "$value": "{size.text-sm}"
+    },
+    "tint-opacity": {
+      "$value": "14%"
+    },
+    "border-opacity": {
+      "$value": "45%"
+    },
+    "fg": {
+      "$value": "{text.primary}"
+    }
+  },
+  "sync-chip": {
+    "device-fg": {
+      "$value": "{sync.device}"
+    },
+    "device-bg": {
+      "$value": "{sync.device-bg}"
+    },
+    "sent-fg": {
+      "$value": "{sync.sent}"
+    },
+    "sent-bg": {
+      "$value": "{sync.sent-bg}"
+    }
+  },
+  "cost-code": {
+    "bg": {
+      "$value": "{brand.subtle}"
+    },
+    "fg": {
+      "$value": "{brand.accent}"
+    },
+    "radius": {
+      "$value": "{shape.radius.tag}"
+    },
+    "font-family": {
+      "$value": "{typography.family.mono}"
+    }
+  },
+  "ai-marker": {
+    "bg": {
+      "$value": "{ai.bg}"
+    },
+    "fg": {
+      "$value": "{ai.fg}"
+    },
+    "border": {
+      "$value": "{ai.border}"
+    },
+    "radius": {
+      "$value": "{shape.radius.tag}"
+    }
+  },
+  "segment": {
+    "track-bg": {
+      "$value": "{surface.sunken}"
+    },
+    "track-border": {
+      "$value": "{border.default}"
+    },
+    "fg": {
+      "$value": "{text.secondary}"
+    },
+    "selected-bg": {
+      "$value": "{surface.raised}"
+    },
+    "selected-fg": {
+      "$value": "{text.primary}"
+    },
+    "selected-border": {
+      "$value": "{border.strong}"
+    },
+    "height": {
+      "$value": "{size.target}"
+    },
+    "font-size": {
+      "$value": "{size.text}"
+    },
+    "radius": {
+      "$value": "{shape.radius.control}"
+    }
+  },
+  "switch": {
+    "track-on": {
+      "$value": "{action.primary}"
+    },
+    "knob-on": {
+      "$value": "{action.on-primary}"
+    },
+    "off": {
+      "$value": "{text.secondary}"
+    },
+    "label": {
+      "$value": "{text.primary}"
+    }
+  },
+  "app-bar": {
+    "bg": {
+      "$value": "{surface.raised}"
+    },
+    "border": {
+      "$value": "{border.default}"
+    },
+    "indicator": {
+      "$value": "{brand.accent}"
+    },
+    "mark": {
+      "$value": "{brand.accent}"
+    },
+    "tab-fg": {
+      "$value": "{text.secondary}"
+    },
+    "tab-fg-active": {
+      "$value": "{text.primary}"
+    },
+    "avatar-bg": {
+      "$value": "{brand.subtle}"
+    },
+    "avatar-fg": {
+      "$value": "{brand.accent}"
+    }
+  },
+  "nav-bar": {
+    "border": {
+      "$value": "{border.default}"
+    },
+    "title-size": {
+      "$value": "{size.text}"
+    }
+  },
+  "stepper": {
+    "done": {
+      "$value": "{status.approved}"
+    },
+    "current": {
+      "$value": "{status.quoted}"
+    },
+    "upcoming": {
+      "$value": "{border.strong}"
+    },
+    "line": {
+      "$value": "{border.strong}"
+    },
+    "on-done": {
+      "$value": "{surface.page}"
+    }
+  },
+  "grid": {
+    "header-bg": {
+      "$value": "{surface.sunken}"
+    },
+    "header-fg": {
+      "$value": "{text.secondary}"
+    },
+    "header-border": {
+      "$value": "{border.strong}"
+    },
+    "row-border": {
+      "$value": "{border.default}"
+    },
+    "cell-height": {
+      "$value": "{size.row}"
+    },
+    "cell-font-size": {
+      "$value": "{size.text}"
+    },
+    "best-bg": {
+      "$value": "{highlight.best}"
+    },
+    "best-tag": {
+      "$value": "{status.approved}"
+    },
+    "selected-bg": {
+      "$value": "{highlight.selected}"
+    },
+    "selected-border": {
+      "$value": "{action.primary}"
+    }
+  },
+  "hours-cell": {
+    "font-size": {
+      "$value": "{size.number}"
+    },
+    "height": {
+      "$value": "{size.row}"
+    }
+  },
+  "keypad": {
+    "key-bg": {
+      "$value": "{surface.sunken}"
+    },
+    "key-border": {
+      "$value": "{border.strong}"
+    },
+    "key-height": {
+      "$value": "{size.target}"
+    },
+    "display-border": {
+      "$value": "{action.primary}"
+    },
+    "display-size": {
+      "$value": "{size.number}"
+    }
+  },
+  "review": {
+    "source-bg": {
+      "$value": "{surface.sunken}"
+    },
+    "accepted-border": {
+      "$value": "{status.approved}"
+    },
+    "attention-border": {
+      "$value": "{status.attention}"
+    },
+    "open-border": {
+      "$value": "{border.default}"
+    }
+  },
+  "popover": {
+    "bg": {
+      "$value": "{surface.raised}"
+    },
+    "border": {
+      "$value": "{ai.border}"
+    },
+    "meter": {
+      "$value": "{ai.fg}"
+    },
+    "meter-track": {
+      "$value": "{surface.sunken}"
+    }
+  },
+  "progress": {
+    "fill": {
+      "$value": "{brand.accent}"
+    },
+    "track": {
+      "$value": "{surface.sunken}"
+    }
+  },
+  "status-chip": {
+    "draft": {
+      "$value": "{status.draft}"
+    },
+    "in-progress": {
+      "$value": "{status.in-progress}"
+    },
+    "quoted": {
+      "$value": "{status.quoted}"
+    },
+    "approved": {
+      "$value": "{status.approved}"
+    },
+    "attention": {
+      "$value": "{status.attention}"
+    }
+  },
+  "resource-chip": {
+    "labor": {
+      "$value": "{resource.labor}"
+    },
+    "equipment": {
+      "$value": "{resource.equipment}"
+    },
+    "material": {
+      "$value": "{resource.material}"
+    },
+    "subcontractor": {
+      "$value": "{resource.subcontractor}"
+    },
+    "other": {
+      "$value": "{resource.other}"
+    }
+  },
+  "layout": {
+    "xs": {
+      "$value": "{space.xs}"
+    },
+    "sm": {
+      "$value": "{space.sm}"
+    },
+    "md": {
+      "$value": "{space.md}"
+    },
+    "lg": {
+      "$value": "{space.lg}"
+    },
+    "xl": {
+      "$value": "{space.xl}"
+    }
+  },
+  "type": {
+    "sans": {
+      "$value": "{typography.family.sans}"
+    },
+    "mono": {
+      "$value": "{typography.family.mono}"
+    },
+    "body": {
+      "$value": "{size.text}"
+    },
+    "small": {
+      "$value": "{size.text-sm}"
+    },
+    "label": {
+      "$value": "{size.label}"
+    },
+    "number": {
+      "$value": "{size.number}"
+    }
+  }
+}

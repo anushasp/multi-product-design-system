@@ -1,0 +1,5 @@
+.datebar { padding: var(--layout-md) var(--layout-lg); }
+.body { flex: 1; display: grid; grid-template-columns: minmax(0, 1fr) 340px; border-top: 1px solid var(--page-border); }
+.side { display: grid; gap: var(--layout-md); align-content: start; padding: var(--layout-lg); background: var(--card-bg); border-left: 1px solid var(--page-border); }
+.sidehead { display: flex; justify-content: space-between; align-items: center; }
+.muted { color: var(--page-fg-muted); font-size: var(--type-small); }

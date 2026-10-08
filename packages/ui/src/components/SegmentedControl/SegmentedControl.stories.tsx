@@ -1,0 +1,10 @@
+import type { Meta, StoryObj } from '@storybook/react';
+import { useState } from 'react';
+import { SegmentedControl } from './SegmentedControl';
+import { Switch } from '../Switch/Switch';
+const meta: Meta = { title: 'Base/Controls' };
+export default meta;
+export const Segmented: StoryObj = { render: function R() { const [v, setV] = useState<'hours' | 'sign'>('hours');
+  return <SegmentedControl label="Panel" value={v} onChange={setV} options={[{ value: 'hours', label: 'Hours' }, { value: 'sign', label: 'Crew sign-off' }]} />; } };
+export const SwitchOnOff: StoryObj = { render: function R() { const [a, setA] = useState(false); const [b, setB] = useState(true);
+  return <div style={{ display: 'flex', gap: 32 }}><Switch checked={a} onChange={setA} label="T&M" /><Switch checked={b} onChange={setB} label="Rework" /></div>; } };

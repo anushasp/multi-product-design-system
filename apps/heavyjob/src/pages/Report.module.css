@@ -1,0 +1,5 @@
+.body { flex: 1; display: grid; grid-template-columns: minmax(0, 1fr) 400px; }
+.list { display: grid; gap: var(--layout-md); align-content: start; padding: var(--layout-lg); }
+.h2 { margin: 0; font-size: 17px; display: flex; gap: var(--layout-sm); align-items: center; }
+.muted { margin: 4px 0 0; color: var(--page-fg-muted); font-size: var(--type-small); }
+.plan { padding: var(--layout-lg); background: var(--card-bg); border-left: 1px solid var(--page-border); }

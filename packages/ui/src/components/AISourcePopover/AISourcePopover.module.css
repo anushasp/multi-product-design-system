@@ -1,0 +1,8 @@
+.pop { width: 340px; display: grid; gap: var(--layout-sm); padding: var(--layout-md); background: var(--popover-bg); border: 1px solid var(--popover-border); border-radius: var(--card-radius); box-shadow: 0 12px 32px rgba(0, 0, 0, .18); white-space: normal; text-align: left; }
+.head { display: flex; align-items: center; gap: var(--layout-sm); font-weight: 600; }
+.source { margin: 0; padding-left: var(--layout-sm); border-left: 3px solid var(--popover-border); font-size: var(--type-small); color: var(--page-fg-muted); }
+.conf { display: flex; align-items: center; gap: var(--layout-sm); font-size: var(--type-small); }
+.meter { flex: 1; height: 6px; border-radius: 3px; background: var(--popover-meter-track); overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--popover-meter); }
+.actions { display: flex; flex-wrap: wrap; gap: var(--layout-sm); }
+.foot { margin: 0; font-size: 12px; color: var(--page-fg-muted); }

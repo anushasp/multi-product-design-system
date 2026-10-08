@@ -1,0 +1,4 @@
+.wrap { display: grid; gap: var(--layout-lg); padding: var(--layout-lg); align-content: start; }
+.card, .card > div { overflow: visible; }
+.foot { display: flex; justify-content: space-between; }
+.note { margin: 0; font-size: var(--type-small); color: var(--page-fg-muted); }

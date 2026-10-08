@@ -1,0 +1,6 @@
+.header { display: flex; flex-wrap: wrap; align-items: center; gap: var(--layout-md); }
+.title { margin: 0; font-weight: 600; }
+.h2 { font-size: 18px; }
+.h3 { font-size: 15px; }
+.meta { color: var(--page-fg-muted); font-size: var(--type-small); }
+.trailing { margin-left: auto; display: flex; align-items: center; gap: var(--layout-lg); }

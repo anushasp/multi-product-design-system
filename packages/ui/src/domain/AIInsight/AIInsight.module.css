@@ -1,0 +1,5 @@
+.card { display: grid; gap: var(--layout-sm); padding: var(--layout-md); border-radius: var(--card-radius); border: 1px solid var(--ai-marker-border); background: color-mix(in srgb, var(--ai-marker-bg) 55%, transparent); }
+.title { margin: 0; font-size: 14.5px; display: flex; gap: var(--layout-sm); align-items: center; }
+.items { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: var(--type-small); }
+.source { font-size: var(--type-small); color: var(--page-fg-muted); }
+.actions { display: flex; flex-wrap: wrap; gap: var(--layout-sm); }

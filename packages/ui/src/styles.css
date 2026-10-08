@@ -1,0 +1,5 @@
+@import '@groundwork/tokens/tokens.css';
+.gw-theme { background: var(--page-bg); color: var(--page-fg); font-family: var(--type-sans); font-size: var(--type-body); line-height: 1.45; }
+.gw-theme *, .gw-theme *::before, .gw-theme *::after { box-sizing: border-box; }
+.gw-theme :focus-visible { outline: 2px solid var(--page-focus); outline-offset: 2px; }
+.gw-num { font-variant-numeric: tabular-nums; }

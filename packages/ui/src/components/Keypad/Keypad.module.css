@@ -1,0 +1,7 @@
+.keypad { display: grid; gap: var(--layout-md); }
+.display { display: flex; justify-content: space-between; align-items: center; height: 64px; padding: 0 var(--layout-md); border: 2px solid var(--keypad-display-border); border-radius: var(--button-radius); font: 700 var(--keypad-display-size)/1 var(--type-sans); font-variant-numeric: tabular-nums; }
+.display small { font-size: var(--type-small); font-weight: 400; color: var(--page-fg-muted); }
+.keys { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--layout-sm); }
+.key { min-height: var(--keypad-key-height); border-radius: var(--button-radius); border: 1px solid var(--keypad-key-border); background: var(--keypad-key-bg); color: var(--page-fg); font: 600 20px var(--type-sans); cursor: pointer; }
+.key:active { background: var(--grid-selected-bg); }
+.apply { min-height: var(--button-height-md); border: 0; border-radius: var(--button-radius); background: var(--button-primary-bg); color: var(--button-primary-fg); font: 600 var(--button-font-size-md) var(--type-sans); cursor: pointer; }

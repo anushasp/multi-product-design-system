@@ -1,0 +1,166 @@
+{
+  "$description": "Layer 2 - Semantic base (office-dark). Brand-agnostic meaning. May only reference primitive tokens.",
+  "surface": {
+    "page": {
+      "$value": "{color.neutral.950}"
+    },
+    "raised": {
+      "$value": "{color.neutral.900}"
+    },
+    "sunken": {
+      "$value": "{color.neutral.850}"
+    },
+    "inverse": {
+      "$value": "{color.neutral.50}"
+    }
+  },
+  "border": {
+    "default": {
+      "$value": "{color.neutral.800}"
+    },
+    "strong": {
+      "$value": "{color.neutral.700}"
+    }
+  },
+  "text": {
+    "primary": {
+      "$value": "{color.neutral.50}"
+    },
+    "secondary": {
+      "$value": "{color.neutral.400}"
+    },
+    "disabled": {
+      "$value": "{color.neutral.600}"
+    }
+  },
+  "status": {
+    "draft": {
+      "$value": "{color.neutral.400}"
+    },
+    "in-progress": {
+      "$value": "{color.blue.300}"
+    },
+    "quoted": {
+      "$value": "{color.orange.300}"
+    },
+    "approved": {
+      "$value": "{color.green.300}"
+    },
+    "attention": {
+      "$value": "{color.red.300}"
+    }
+  },
+  "resource": {
+    "labor": {
+      "$value": "{color.green.300}"
+    },
+    "equipment": {
+      "$value": "{color.orange.300}"
+    },
+    "material": {
+      "$value": "{color.blue.300}"
+    },
+    "subcontractor": {
+      "$value": "{color.magenta.300}"
+    },
+    "other": {
+      "$value": "{color.neutral.400}"
+    }
+  },
+  "ai": {
+    "bg": {
+      "$value": "{color.violet.900}"
+    },
+    "fg": {
+      "$value": "{color.violet.300}"
+    },
+    "border": {
+      "$value": "{color.violet.600}"
+    }
+  },
+  "sync": {
+    "device": {
+      "$value": "{color.amber.300}"
+    },
+    "device-bg": {
+      "$value": "{color.amber.900}"
+    },
+    "sent": {
+      "$value": "{color.green.300}"
+    },
+    "sent-bg": {
+      "$value": "{color.green.900}"
+    }
+  },
+  "highlight": {
+    "best": {
+      "$value": "{color.green.900}"
+    }
+  },
+  "size": {
+    "target": {
+      "$value": "{dimension.32}"
+    },
+    "target-sm": {
+      "$value": "{dimension.28}"
+    },
+    "row": {
+      "$value": "{dimension.36}"
+    },
+    "text": {
+      "$value": "{dimension.14}"
+    },
+    "text-sm": {
+      "$value": "{dimension.13}"
+    },
+    "label": {
+      "$value": "{dimension.11}"
+    },
+    "number": {
+      "$value": "{dimension.14}"
+    }
+  },
+  "space": {
+    "xs": {
+      "$value": "{spacing.1}"
+    },
+    "sm": {
+      "$value": "{spacing.2}"
+    },
+    "md": {
+      "$value": "{spacing.3}"
+    },
+    "lg": {
+      "$value": "{spacing.4}"
+    },
+    "xl": {
+      "$value": "{spacing.6}"
+    }
+  },
+  "shape": {
+    "radius": {
+      "control": {
+        "$value": "{radii.8}"
+      },
+      "card": {
+        "$value": "{radii.12}"
+      },
+      "tag": {
+        "$value": "{radii.4}"
+      },
+      "pill": {
+        "$value": "{radii.full}"
+      }
+    }
+  },
+  "typography": {
+    "family": {
+      "sans": {
+        "$value": "{font.sans}"
+      },
+      "mono": {
+        "$value": "{font.mono}"
+      }
+    }
+  }
+}

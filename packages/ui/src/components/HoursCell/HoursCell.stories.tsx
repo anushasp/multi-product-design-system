@@ -1,0 +1,11 @@
+import type { Meta, StoryObj } from '@storybook/react';
+import { useState } from 'react';
+import { HoursCell } from './HoursCell';
+import { Keypad } from '../Keypad/Keypad';
+import { StatRow } from '../StatRow/StatRow';
+const meta: Meta = { title: 'Patterns/Field entry' };
+export default meta;
+export const Hours: StoryObj = { render: () => <table><tbody><tr><HoursCell label="Ray Ortega" value={5} selected /><HoursCell label="Ray Ortega" value={5} /></tr></tbody></table> };
+export const KeypadEntry: StoryObj = { render: function R() { const [v, setV] = useState('5');
+  return <div style={{ width: 308 }}><Keypad value={v} onKey={(k) => setV((p) => (k === '⌫' ? p.slice(0, -1) : (p + k).slice(0, 5)))} onApply={() => {}} /></div>; } };
+export const Stats: StoryObj = { render: () => <div style={{ width: 360, display: 'grid', gap: 10 }}><StatRow label="Planned" value="3,200 CY / shift" /><StatRow label="Reported today" value="500 CY" /></div> };

@@ -1,0 +1,2 @@
+.wrap { display: grid; gap: var(--layout-md); }
+.legend { display: flex; flex-wrap: wrap; gap: var(--layout-sm); }

@@ -1,0 +1,3 @@
+.track { display: inline-flex; gap: 2px; padding: 3px; background: var(--segment-track-bg); border: 1px solid var(--segment-track-border); border-radius: var(--segment-radius); }
+.seg { border: 1px solid transparent; background: transparent; min-height: calc(var(--segment-height) - 6px); padding: 0 var(--layout-lg); border-radius: calc(var(--segment-radius) - 2px); font: inherit; font-size: var(--segment-font-size); font-weight: 500; color: var(--segment-fg); cursor: pointer; }
+.seg[aria-pressed='true'] { background: var(--segment-selected-bg); color: var(--segment-selected-fg); border-color: var(--segment-selected-border); font-weight: 600; }

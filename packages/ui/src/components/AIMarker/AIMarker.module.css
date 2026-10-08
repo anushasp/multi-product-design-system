@@ -1,0 +1,3 @@
+.ai { display: inline-flex; align-items: center; gap: 4px; height: 20px; padding: 0 6px; border-radius: var(--ai-marker-radius); background: var(--ai-marker-bg); color: var(--ai-marker-fg); border: 1px solid var(--ai-marker-border); font: 700 10.5px/1 var(--type-mono); vertical-align: middle; }
+button.ai { cursor: pointer; }
+.ai svg { width: 10px; height: 10px; }

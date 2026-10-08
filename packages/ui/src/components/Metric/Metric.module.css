@@ -1,0 +1,5 @@
+.metric { display: grid; gap: 2px; }
+.value { font-variant-numeric: tabular-nums; font-weight: 700; }
+.md { font-size: 18px; }
+.lg { font-size: 22px; }
+.group { display: flex; flex-wrap: wrap; gap: var(--layout-xl); }

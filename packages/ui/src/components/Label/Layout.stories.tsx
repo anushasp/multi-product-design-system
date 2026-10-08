@@ -1,0 +1,16 @@
+import type { Meta, StoryObj } from '@storybook/react';
+import { Label } from './Label';
+import { Metric, MetricGroup } from '../Metric/Metric';
+import { SectionHeader } from '../SectionHeader/SectionHeader';
+import { Toolbar } from '../Toolbar/Toolbar';
+import { Legend } from '../Legend/Legend';
+import { RadioOption } from '../RadioOption/RadioOption';
+import { Button } from '../Button/Button';
+const meta: Meta<typeof Label> = { title: 'Base/Layout helpers', component: Label, args: { children: 'Pay items' } };
+export default meta;
+type S = StoryObj<typeof Label>;
+export const Eyebrow: S = {};
+export const Metrics: S = { render: () => <MetricGroup><Metric label="Cost" value="$15,429.03" /><Metric label="Markup" value="$0.00" /><Metric label="Price" value="$15,429.03" /></MetricGroup> };
+export const Header: S = { render: () => <SectionHeader code="CLH" title="Heavy Clearing crew" meta="3.00 shifts · 24.00 crew hrs" trailing={<b>$5.14 / CY</b>} /> };
+export const ToolbarWithLegend: S = { render: () => <Toolbar end={<Legend items={[{ mark: 'ai', label: 'Read from vendor quote' }, { mark: 'best', label: 'Lowest price' }, { mark: 'empty', label: 'No bid' }]} />}><Button variant="secondary" showPlus>Add crew</Button></Toolbar> };
+export const Radio: S = { render: () => <div style={{ display: 'flex', gap: 24 }}><RadioOption label="Adam’s Pipe Supply" /><RadioOption label="ACE Contractors" selected={false} /></div> };

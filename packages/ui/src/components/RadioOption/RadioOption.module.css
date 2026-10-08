@@ -1,0 +1,4 @@
+.opt { display: inline-flex; align-items: center; gap: var(--layout-sm); }
+.radio { width: 16px; height: 16px; border-radius: 50%; border: 2px solid var(--page-fg-muted); flex: none; }
+.on { border: 5px solid var(--grid-selected-border); }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }

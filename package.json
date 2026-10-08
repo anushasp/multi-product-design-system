@@ -1,0 +1,13 @@
+{
+  "name": "groundwork-ui",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "tokens": "npm run build -w @groundwork/tokens",
+    "dev:bid": "npm run tokens && npm run dev -w heavybid",
+    "dev:job": "npm run tokens && npm run dev -w heavyjob",
+    "storybook": "npm run tokens && npm run storybook -w @groundwork/ui",
+    "typecheck": "npm run typecheck -w @groundwork/ui",
+    "build": "npm run tokens && npm run typecheck && npm run build -w heavybid && npm run build -w heavyjob"
+  }
+}

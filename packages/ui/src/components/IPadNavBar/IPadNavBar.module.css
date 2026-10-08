@@ -1,0 +1,4 @@
+.wrap { border-bottom: 1px solid var(--nav-bar-border); }
+.status { display: flex; justify-content: space-between; padding: var(--layout-sm) var(--layout-lg) var(--layout-xs); font-size: 12px; font-weight: 600; }
+.nav { display: flex; align-items: center; gap: var(--layout-md); padding: var(--layout-xs) var(--layout-lg) var(--layout-md) var(--layout-md); }
+.title { flex: 1; margin: 0; text-align: center; font-size: calc(var(--nav-bar-title-size) + 2px); font-weight: 700; }

@@ -1,0 +1,6 @@
+.q { border: 0; border-top: 1px solid var(--page-border); margin: 0; padding: var(--layout-md) 0; display: grid; gap: var(--layout-sm); }
+.en { display: grid; gap: 4px; padding: 0; font-weight: 600; font-size: var(--type-body); }
+.es { font-weight: 400; font-size: var(--type-small); color: var(--page-fg-muted); }
+.yn { display: grid; grid-template-columns: 1fr 1fr; gap: var(--layout-sm); }
+.yn button { min-height: var(--button-height-md); border-radius: var(--button-radius); border: 1px solid var(--button-secondary-border); background: var(--button-secondary-bg); color: var(--button-secondary-fg); font: 700 var(--button-font-size-md) var(--type-sans); cursor: pointer; }
+.yn button[aria-pressed='true'] { background: var(--button-primary-bg); border-color: var(--button-primary-bg); color: var(--button-primary-fg); }

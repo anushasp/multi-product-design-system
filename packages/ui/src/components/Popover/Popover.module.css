@@ -1,0 +1,4 @@
+.wrap { position: relative; display: inline-flex; align-items: center; gap: 6px; }
+.float { position: absolute; top: calc(100% + 14px); z-index: 10; font-weight: 400; text-align: left; }
+.end { right: 0; }
+.start { left: 0; }

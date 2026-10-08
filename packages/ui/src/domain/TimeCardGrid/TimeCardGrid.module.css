@@ -1,0 +1,9 @@
+.wrap { overflow-x: auto; }
+.grid { width: 100%; border-collapse: collapse; }
+.grid thead th { text-align: left; vertical-align: bottom; padding: var(--layout-sm) var(--layout-md); background: var(--grid-header-bg); border-bottom: 2px solid var(--grid-header-border); }
+.cchead { display: grid; gap: 4px; justify-items: start; background: none; border: 0; padding: 0; font: inherit; color: inherit; text-align: left; cursor: pointer; }
+.cchead b { font-size: 16px; }
+.muted { color: var(--page-fg-muted); font-size: var(--type-small); font-weight: 400; }
+.grid .center { text-align: center; }
+.total { text-align: center; font: 700 var(--type-number)/1 var(--type-sans); color: var(--page-fg-muted); border-bottom: 1px solid var(--grid-row-border); font-variant-numeric: tabular-nums; }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }

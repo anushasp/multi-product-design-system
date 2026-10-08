@@ -1,0 +1,8 @@
+.header { display: flex; flex-wrap: wrap; align-items: center; gap: var(--layout-md); padding: var(--layout-md) var(--layout-lg); border-bottom: 1px solid var(--page-border); }
+.titles { display: grid; gap: 2px; }
+.crumb { font-size: var(--type-small); color: var(--page-fg-muted); }
+.title { margin: 0; font-size: 20px; font-weight: 700; }
+.spacer { flex: 1; }
+.metric { display: grid; gap: 2px; }
+.metric b { font-size: 18px; }
+.label { font: 600 var(--type-label)/1.2 var(--type-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--page-fg-muted); }

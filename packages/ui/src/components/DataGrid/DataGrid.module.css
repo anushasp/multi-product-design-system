@@ -1,0 +1,14 @@
+.scroll { overflow-x: auto; }
+.grid { width: 100%; border-collapse: collapse; font-size: var(--grid-cell-font-size); }
+.caption { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.cell { padding: 0 var(--layout-sm); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.header { height: 34px; background: var(--grid-header-bg); color: var(--grid-header-fg); border-bottom: 1px solid var(--grid-header-border); font: 600 var(--type-label)/1.2 var(--type-mono); text-transform: uppercase; letter-spacing: .04em; }
+.body { height: var(--grid-cell-height); border-bottom: 1px solid var(--grid-row-border); }
+.inner { display: flex; align-items: center; gap: 6px; }
+.left .inner { justify-content: flex-start; }
+.right .inner { justify-content: flex-end; }
+.right { text-align: right; }
+.best { background: var(--grid-best-bg); font-weight: 600; }
+.selected { background: var(--grid-selected-bg); box-shadow: inset 0 0 0 2px var(--grid-selected-border); }
+.tag { font: 600 10px/1 var(--type-mono); text-transform: uppercase; color: var(--grid-best-tag); }
+.footer { padding: var(--layout-sm); border-top: 2px solid var(--grid-header-border); font-weight: 700; }

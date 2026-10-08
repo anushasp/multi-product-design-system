@@ -1,0 +1,7 @@
+.sw { display: inline-flex; align-items: center; gap: var(--layout-sm); background: none; border: 0; padding: 0; font: inherit; color: var(--switch-label); cursor: pointer; }
+.track { width: 40px; height: 22px; border-radius: 11px; border: 2px solid var(--switch-off); position: relative; flex: none; }
+.track::after { content: ''; position: absolute; top: 2px; left: 2px; width: 14px; height: 14px; border-radius: 50%; background: var(--switch-off); transition: left .15s; }
+.sw[aria-checked='true'] .track { background: var(--switch-track-on); border-color: var(--switch-track-on); }
+.sw[aria-checked='true'] .track::after { left: 20px; background: var(--switch-knob-on); }
+.state { font: 600 11px/1 var(--type-mono); text-transform: uppercase; color: var(--switch-off); }
+@media (prefers-reduced-motion: reduce) { .track::after { transition: none; } }

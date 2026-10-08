@@ -1,0 +1,6 @@
+.cell { min-width: 280px; text-align: left; padding: 6px var(--layout-md); border-bottom: 1px solid var(--grid-row-border); font-weight: 400; }
+.eq { padding-left: 30px; }
+.who { display: grid; gap: 1px; }
+.who b { font-size: var(--type-body); }
+.eqname { white-space: nowrap; display: flex; align-items: center; gap: var(--layout-sm); font-weight: 600; }
+.role { color: var(--page-fg-muted); font-size: var(--type-small); }

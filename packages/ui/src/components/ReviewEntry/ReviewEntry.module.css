@@ -1,0 +1,9 @@
+.entry { display: grid; grid-template-columns: auto 1fr auto; gap: var(--layout-md); align-items: center; padding: var(--layout-md); border-radius: var(--card-radius); background: var(--card-bg); border: 1px solid var(--review-open-border); }
+.accepted { border: 2px solid var(--review-accepted-border); }
+.needs-decision { border: 2px solid var(--review-attention-border); }
+.source { display: grid; place-items: center; width: 76px; height: 56px; border-radius: var(--button-radius); background: var(--review-source-bg); font: 600 11px var(--type-mono); text-transform: uppercase; color: var(--page-fg-muted); }
+.text { display: grid; gap: 4px; min-width: 0; }
+.main { margin: 0; font-weight: 600; font-size: var(--type-body); }
+.evidence { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: var(--layout-sm); font-size: 13px; color: var(--page-fg-muted); }
+.actions { display: flex; gap: var(--layout-sm); }
+.done { font-weight: 700; color: var(--review-accepted-border); }
