@@ -1,4 +1,7 @@
 .app { min-height: 100vh; display: flex; flex-direction: column; }
 .modebar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--layout-md); padding: var(--layout-sm) var(--layout-lg); background: var(--page-sunken); border-bottom: 1px dashed var(--page-border-strong); }
 .modelabel { font: 600 var(--type-label)/1 var(--type-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--page-fg-muted); margin-right: auto; }
-.foot { margin: auto 0 0; padding: var(--layout-md) var(--layout-lg); font-size: 12px; color: var(--page-fg-muted); border-top: 1px solid var(--page-border); }
+.foot { margin: auto 0 0; padding: var(--layout-md) var(--layout-lg); font-size: 12px; color: var(--page-fg-muted); border-top: 1px solid var(--page-border); display: grid; gap: var(--layout-xs); }
+.foot p { margin: 0; }
+.footlinks { display: flex; flex-wrap: wrap; align-items: center; gap: var(--layout-md); }
+.footlinks a { color: var(--page-link); font-weight: 600; }

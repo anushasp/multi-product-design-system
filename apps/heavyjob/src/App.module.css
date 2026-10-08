@@ -3,4 +3,7 @@
 .modelabel { font: 600 var(--type-label)/1 var(--type-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--page-fg-muted); margin-right: auto; }
 .stage { flex: 1; display: flex; justify-content: center; padding: var(--layout-xl) var(--layout-lg); overflow-x: auto; }
 .ipad { width: 1366px; min-width: 1000px; min-height: 900px; display: flex; flex-direction: column; border: 10px solid var(--page-inverse); border-radius: 28px; overflow: hidden; background: var(--page-bg); }
-.foot { margin: 0; padding: var(--layout-md) var(--layout-lg); font-size: 12px; color: var(--page-fg-muted); border-top: 1px solid var(--page-border); }
+.foot { margin: 0; padding: var(--layout-md) var(--layout-lg); font-size: 12px; color: var(--page-fg-muted); border-top: 1px solid var(--page-border); display: grid; gap: var(--layout-xs); }
+.foot p { margin: 0; }
+.footlinks { display: flex; flex-wrap: wrap; align-items: center; gap: var(--layout-md); }
+.footlinks a { color: var(--page-link); font-weight: 600; }
