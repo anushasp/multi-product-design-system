@@ -56,7 +56,7 @@ export function App() {
       <main className={s.main}>
         {/* OVERVIEW */}
         <section id="overview" className={s.section}>
-          <Label>Design system</Label>
+          <Label>Multi-product design system</Label>
           <h1 className={s.h1}>Groundwork</h1>
           <p className={s.lede}>One token system and one component library for two very different products: a dense office web app for estimators (HeavyBid) and a field iPad app for foremen (HeavyJob). Use the Mode and Brand controls in the sidebar to re-skin this whole page.</p>
           <div className={s.grid2}>
