@@ -4,10 +4,9 @@ import { AppBar, ThemeProvider, type Brand, type Mode } from '@groundwork/ui';
 import { EstimatePage } from './pages/EstimatePage';
 import { QuotesPage } from './pages/QuotesPage';
 import { ModeBar } from './ModeBar';
+import { DOCS_URL, STORYBOOK_URL } from './links';
 import s from './App.module.css';
 
-const DOCS_URL = import.meta.env.VITE_DOCS_URL ?? 'http://localhost:5175';
-const STORYBOOK_URL = import.meta.env.VITE_STORYBOOK_URL ?? 'http://localhost:6006';
 
 const TABS = ['Projects', 'Estimates', 'Quotes', 'Contacts'];
 const ROUTES: Record<string, string> = { Estimates: '/estimate', Quotes: '/quotes' };
@@ -28,7 +27,7 @@ export function App() {
         <Route path="*" element={<Navigate to="/estimate" replace />} />
       </Routes>
       <footer className={s.foot}>
-        <nav className={s.footlinks} aria-label="Design system">
+        <nav className={s.footlinks} aria-label="Design system (footer)">
           <span>Built with the Groundwork design system:</span>
           <a href={DOCS_URL}>Documentation</a>
           <a href={STORYBOOK_URL}>Storybook</a>

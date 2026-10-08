@@ -16,9 +16,11 @@ const cssVar = (name: string) => `var(--${name.replace(/\./g, '-')})`;
 const base = resolved.layers.semanticBase as Tok[];
 const brandLayer = resolved.layers.semanticBrand as Record<string, Tok[]>;
 const isColor = (t: Tok) => /^#/.test(t.values['office-light'].value);
-const BID_URL = import.meta.env.VITE_BID_URL ?? 'http://localhost:5173';
-const JOB_URL = import.meta.env.VITE_JOB_URL ?? 'http://localhost:5174';
-const SB_URL = import.meta.env.VITE_STORYBOOK_URL ?? 'http://localhost:6006';
+// Hosted builds link to the live sites; `npm run dev` links to the local servers. VITE_* variables override both.
+const dev = import.meta.env.DEV;
+const BID_URL = import.meta.env.VITE_BID_URL ?? (dev ? 'http://localhost:5173' : 'https://heavybid.anushasaripella.com');
+const JOB_URL = import.meta.env.VITE_JOB_URL ?? (dev ? 'http://localhost:5174' : 'https://heavyjob.anushasaripella.com');
+const SB_URL = import.meta.env.VITE_STORYBOOK_URL ?? (dev ? 'http://localhost:6006' : 'https://heavystorybook.anushasaripella.com');
 
 const NAV = [['overview', 'Overview'], ['foundations', 'Foundations'], ['modes', 'Modes & brands'], ['components', 'Components'], ['patterns', 'Patterns'], ['products', 'Products'], ['contributing', 'Contributing']];
 

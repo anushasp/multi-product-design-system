@@ -128,5 +128,5 @@ Designed and built by **Anusha Saripella**. I used Claude (Anthropic) as an acce
 - Code Connect mappings so Figma Dev Mode shows the real React components.
 
 ## Notes
-- Both product apps link to the docs site and Storybook in their footer. Links default to `http://localhost:5175` and `http://localhost:6006`; set `VITE_DOCS_URL` and `VITE_STORYBOOK_URL` when hosting elsewhere. The docs app also reads `VITE_BID_URL` and `VITE_JOB_URL`.
+- Live sites: HeavyJob `https://heavyjob.anushasaripella.com`, docs `https://groundwork.anushasaripella.com`, Storybook `https://heavystorybook.anushasaripella.com`. Hosted builds link to these by default; `npm run dev` links to the local servers. Override with `VITE_DOCS_URL`, `VITE_STORYBOOK_URL`, `VITE_BID_URL`, `VITE_JOB_URL`.
 - npm may report that esbuild's install script was not run; the builds work without it. Run `npm install-scripts approve esbuild` if Vite ever fails to start.
