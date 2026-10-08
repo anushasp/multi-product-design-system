@@ -177,7 +177,7 @@ export function App() {
           <h2 className={s.h2}>Products using Groundwork</h2>
           <div className={s.grid2}>
             <div className={s.card}><Label>Office · web</Label><h3 className={s.h3}>HeavyBid</h3><p className={s.p}>Estimate builder and quote comparison. Default mode: Office light.</p><a className={s.link} href={BID_URL}>Open HeavyBid demo →</a></div>
-            <div className={s.card}><Label>Field · iPad</Label><h3 className={s.h3}>HeavyJob</h3><p className={s.p}>Time card with bilingual crew sign-off, daily report review. Default mode: Field.</p><a className={s.link} href={JOB_URL}>Open HeavyJob demo →</a></div>
+            <div className={s.card}><Label>Field · iPad</Label><h3 className={s.h3}>HeavyJob</h3><p className={s.p}>Time card with bilingual crew sign-off, daily report review. Opens in Office light like HeavyBid; switch to Field mode to see the gloves-and-sunlight version.</p><a className={s.link} href={JOB_URL}>Open HeavyJob demo →</a></div>
           </div>
           <div className={s.tableWrap}><table className={s.table}>
             <thead><tr><th>Component</th><th>HeavyBid</th><th>HeavyJob</th></tr></thead>

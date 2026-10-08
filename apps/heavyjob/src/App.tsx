@@ -9,7 +9,7 @@ import s from './App.module.css';
 
 
 export function App() {
-  const [mode, setMode] = useState<Mode>('field');
+  const [mode, setMode] = useState<Mode>('office-light');
   const [brand, setBrand] = useState<Brand>('hcss');
   const nav = useNavigate();
   return (
