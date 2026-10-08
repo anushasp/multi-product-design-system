@@ -62,6 +62,7 @@ packages/tokens   4-layer design tokens (DTCG JSON) + build script → tokens.cs
 packages/ui       React + TypeScript component library (35 components) + Storybook (42 stories)
 apps/heavybid     Office web app: Estimate builder, Quote comparison
 apps/heavyjob     Field iPad app: Time card + bilingual crew sign-off, Daily report review
+apps/docs         Design system documentation site: foundations, modes & brands, live components, patterns
 ```
 
 ## Run it
@@ -71,10 +72,13 @@ npm install
 npm run dev:bid      # office app  → http://localhost:5173
 npm run dev:job      # field app   → http://localhost:5174
 npm run storybook    # components  → http://localhost:6006
+npm run dev:docs     # docs site   → http://localhost:5175
 npm run build        # tokens + typecheck + production builds of both apps
 ```
 
-Each app has a dashed "Concept demo" bar with **Mode** (Office light / Office dark / Field) and **Brand** switches.
+The **docs site** (`apps/docs`) is the front door to the system: principles, the four token layers read live from the token build, the same UI side by side in every mode, all components as live interactive examples (with their Figma names), usage patterns with do/don't, which product uses what, and contribution guidelines.
+
+Each product app has a dashed "Concept demo" bar with **Mode** (Office light / Office dark / Field) and **Brand** switches.
 
 ## Component library
 

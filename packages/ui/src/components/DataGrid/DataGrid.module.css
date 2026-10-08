@@ -1,4 +1,4 @@
-.scroll { overflow-x: auto; }
+.scroll { position: relative; overflow-x: auto; }
 .grid { width: 100%; border-collapse: collapse; font-size: var(--grid-cell-font-size); }
 .caption { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 .cell { padding: 0 var(--layout-sm); white-space: nowrap; font-variant-numeric: tabular-nums; }

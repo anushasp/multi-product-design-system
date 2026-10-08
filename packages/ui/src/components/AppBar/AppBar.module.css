@@ -5,7 +5,7 @@
 .tab { background: none; border: 0; border-bottom: 3px solid transparent; padding: 0 var(--layout-md); font: inherit; font-weight: 500; color: var(--app-bar-tab-fg); cursor: pointer; }
 .tab[aria-current='page'] { color: var(--app-bar-tab-fg-active); font-weight: 600; border-bottom-color: var(--app-bar-indicator); }
 .spacer { flex: 1; }
-.search { display: flex; align-items: center; gap: var(--layout-sm); width: 240px; height: 34px; padding: 0 var(--layout-md); border: 1px solid var(--page-border-strong); border-radius: var(--button-radius); }
+.search { position: relative; display: flex; align-items: center; gap: var(--layout-sm); width: 240px; height: 34px; padding: 0 var(--layout-md); border: 1px solid var(--page-border-strong); border-radius: var(--button-radius); }
 .search input { flex: 1; min-width: 0; border: 0; background: none; font: inherit; font-size: var(--type-small); color: var(--page-fg); }
 .search input::placeholder { color: var(--page-fg-muted); }
 .search kbd { font: 11px var(--type-mono); color: var(--page-fg-muted); }

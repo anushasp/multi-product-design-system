@@ -1,4 +1,4 @@
-.wrap { overflow-x: auto; }
+.wrap { position: relative; overflow-x: auto; }
 .grid { width: 100%; border-collapse: collapse; }
 .grid thead th { text-align: left; vertical-align: bottom; padding: var(--layout-sm) var(--layout-md); background: var(--grid-header-bg); border-bottom: 2px solid var(--grid-header-border); }
 .cchead { display: grid; gap: 4px; justify-items: start; background: none; border: 0; padding: 0; font: inherit; color: inherit; text-align: left; cursor: pointer; }
